@@ -5,8 +5,12 @@
 1. Utilizando o laço de repetição `while`, imprima os 10 primeiros números naturais.
 
 2. Imprima uma lista com os elementos `[7, 29, 201, 345, 145, 502]`. Em seguida, utilizando o laço de repetição `while`, remova todos os elementos da lista. Após, imprima a lista pra verificar que ela está vazia.
+
+3. Utilizando o laço de repetição `while`, imprima os números de 5 a 1. Após o término, imprima `Fim!` usando `else`.
+
+4. Utilizando o laço de repetição `while`, some os números de 1 a 10. Quando a soma ultrapassar `30`, imprima `Limite atingido!` e interrompa o laço. 
  
-## Listas e tuplas
+## Listas
 1. Crie uma lista com as strings `'infinity'`, `'school'`, `'curso'`, `'dfs'`.
 
 2. Insira a string `'python'` na lista do exercício acima.
@@ -19,7 +23,18 @@
 
 6. Com a lista `['Mike', '', 'Emma', 'Kelly', '', 'Brad']`, imprima a lista sem as strings vazias. 
 
-7. Dada a tupla `(11, 60, 44, 55)`, transforme o número `60` em `660`
+## Tuplas
+1. Crie uma tupla com os números de 1 a 5.
+
+2. Imprima o segundo elemento da tupla.
+
+3. Imprima o tamanho da tupla.
+
+4. Concatene duas tuplas `(1, 2, 3)` `(4, 5, 6)`. Imprima a tupla concatenada.
+
+5. Crie uma tupla `(5, 10, 15)`, converta a tupla para lista, adicione o número `40` e imprima a tupla resultante.
+
+6. Dada a tupla `(11, 60, 44, 55)`, transforme o número `60` em `660`
 
 ## Dicionários
 1. Crie um dicionário com o nome de `usuario_novo` e insira as chaves `'nome'`, `'email'`, `'telefone'` e `'endereço'`. Os valores dessas chaves fica a seu critério. Em seguida, imprima-o.
@@ -53,11 +68,19 @@
 7. Imprima a união de `design` e de `orientacao_a_objetos`.
 
 ## Laço de repetição `for`
-1. Faça um laço de repetição `for` que verifique qual item da lista `[7, 5, 159, 30, 12, 15]` é maior do que 100. Imprima a mensagem `Encontrei um número maior que 100`. Em seguida, imprima o número e interrompa o laço.
+1. Crie uma lista com os números de 1 a 5 e use um for para imprimir cada número.
+   
+2. Faça um laço de repetição `for` que verifique qual item da lista `[7, 5, 159, 30, 12, 15]` é maior do que 100. Imprima a mensagem `Encontrei um número maior que 100`. Em seguida, imprima o número e interrompa o laço.
 
-2. Com a mesma lista do item 1, Crie um laço de repetição que verifique se o item é maior do que 10. Quando o item for maior que 10, imprima `Encontrei um número maior que 10`. Em seguida, imprima o número e continue o laço.
+3. Com a mesma lista do item 1, Crie um laço de repetição que verifique se o item é maior do que 10. Quando o item for maior que 10, imprima `Encontrei um número maior que 10`. Em seguida, imprima o número e continue o laço.
 
-3. Imprima a tabuada do número 2 utilizando o loop `for`.
+4. Imprima a tabuada do número 2 utilizando o loop `for`.
+
+6. Dada a tupla `(10, 20, 30)`, use um for para criar uma lista que contém os mesmos elementos da tupla.
+
+7. Use um for para calcular a soma de todos os elementos da lista `[5, 10, 15, 20]`.
+
+8. Dada a lista `[1, 2, 3, 4, 5, 6]`, use um `for` para criar uma nova lista contendo apenas os números pares.
 
 # Desafios maiores (boa sorte!)
 
@@ -75,4 +98,21 @@
 
 4. Dada a tupla `('Orange', [10, 20, 30], (5, 15, 25))
 `, imprima o número `30`.
+
+5. Dada a lista de dicionários abaixo, use um `for` para criar uma lista apenas com os nomes - o resultado esperado é `['Alice', 'Bob']`
+```
+[
+    {"nome": "Alice", "idade": 25},
+    {"nome": "Bob", "idade": 30}
+]
+```
+6. Dada a lista de listas (também chamada de matriz) abaixo, use DOIS for para somar todos os valores da matriz - o resultado esperado é `45`
+```
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+```
+
 
