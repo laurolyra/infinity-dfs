@@ -6,7 +6,7 @@
 
 2. Imprima uma lista com os elementos `[7, 29, 201, 345, 145, 502]`. Em seguida, utilizando o laço de repetição `while`, remova todos os elementos da lista. Após, imprima a lista pra verificar que ela está vazia.
  
-## Listas
+## Listas e tuplas
 1. Crie uma lista com as strings `'infinity'`, `'school'`, `'curso'`, `'dfs'`.
 
 2. Insira a string `'python'` na lista do exercício acima.
@@ -18,6 +18,8 @@
 5. Defina que o terceiro elemento da lista será `'course'` e imprima a lista.
 
 6. Com a lista `['Mike', '', 'Emma', 'Kelly', '', 'Brad']`, imprima a lista sem as strings vazias. 
+
+7. Dada a tupla `(11, 60, 44, 55)`, transforme o número `60` em `660`
 
 ## Dicionários
 1. Crie um dicionário com o nome de `usuario_novo` e insira as chaves `'nome'`, `'email'`, `'telefone'` e `'endereço'`. Os valores dessas chaves fica a seu critério. Em seguida, imprima-o.
