@@ -106,7 +106,7 @@
     {"nome": "Bob", "idade": 30}
 ]
 ```
-6. Dada a lista de listas (também chamada de matriz) abaixo, use DOIS for para somar todos os valores da matriz - o resultado esperado é `45`
+6. Dada a lista de listas (também chamada de matriz) abaixo, use DOIS `for` para somar todos os valores da matriz - o resultado esperado é `45`
 ```
 matriz = [
     [1, 2, 3],
