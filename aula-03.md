@@ -1,6 +1,5 @@
 # Aula 03: Revisão
 
-## Condicionais
 
 ## Laço de repetição `while`
 1. Utilizando o laço de repetição `while`, imprima os 10 primeiros números naturais.
