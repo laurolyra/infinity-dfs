@@ -6,7 +6,7 @@
 
 2. Imprima uma lista com os elementos `[7, 29, 201, 345, 145, 502]`. Em seguida, utilizando o laço de repetição `while`, remova todos os elementos da lista. Após, imprima a lista pra verificar que ela está vazia.
 
-3. Utilizando o laço de repetição `while`, imprima os números de 5 a 1. Após o término, imprima `Fim!` usando `else`.
+3. Utilizando o laço de repetição `while`, imprima os números de 5 a 1. Após o término, imprima `Fim!`.
 
 4. Utilizando o laço de repetição `while`, some os números de 1 a 10. Quando a soma ultrapassar `30`, imprima `Limite atingido!` e interrompa o laço. 
  
