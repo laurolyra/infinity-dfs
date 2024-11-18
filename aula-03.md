@@ -34,8 +34,6 @@
 
 5. Crie uma tupla `(5, 10, 15)`, converta a tupla para lista, adicione o número `40` e imprima a tupla resultante.
 
-6. Dada a tupla `(11, 60, 44, 55)`, transforme o número `60` em `660`
-
 ## Dicionários
 1. Crie um dicionário com o nome de `usuario_novo` e insira as chaves `'nome'`, `'email'`, `'telefone'` e `'endereço'`. Os valores dessas chaves fica a seu critério. Em seguida, imprima-o.
 
