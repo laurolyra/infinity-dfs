@@ -12,9 +12,13 @@
    > Exemplo: dada a lista `[2, 3, 4, 5]`, a função deve retornar `[6, 9, 12, 15]`
    
 6. Crie uma função que recebe um nome e retorne sempre o primeiro e o último nome, separados por vírgula
-   > Exemplo: dado nome `'Lauro Lyra Aguiar'`, a função deve retornar `Aguiar, Lauro`. Se o nome for `'Carlos Alberto'`, deve retornar `Alberto, Carlos`
+   > Exemplo: dado o nome `'Lauro Lyra Aguiar'`, a função deve retornar `Aguiar, Lauro`. Se o nome for `'Carlos Alberto'`, deve retornar `Alberto, Carlos`
 
 7. Crie uma função chamada `verifica_meia` que recebe um dicionário `ingresso` com as chaves `nome_completo`(string), `cpf`(número) e `estudante`(booleano) que, ao chamada, verificará o valor da chave `estudante`. Se esse valor for verdadeiro, a função deve retornar `Seu ingresso custa 50 reais`. Se for falso, deve retornar `Seu ingresso custa 100 reais`
    > Exemplo: se a função `verifica_meia(pagante)` recebe um dicionário `{nome: 'Astolfo Borges', cpf: 00000000000, estudante: False}`, seu retorno deverá ser `Seu ingresso custa 100 reais`
-8. 
 
+8. Crie uma função `calcula_area_quadrado`, que recebe o valor do lado de um quadrado e, ao ser chamada, retorna o total de sua área.
+   
+9.  Crie uma função `calcula_area_retângulo` que recebe o valor dos lados de um retângulo e, ao ser chamada, retorna o total de sua área.
+
+10. Crie uma função `converte_dolar` que recebe um valor em dólares e, ao ser chamada, retorna o valor em reais. _dica: adicione uma variável `cotacao_dolar` dentro de sua função._
