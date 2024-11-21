@@ -8,8 +8,8 @@
 
 3. Utilizando o laço de repetição `while`, imprima os números de 5 a 1. Após o término, imprima `Fim!`.
 
-4. Utilizando o laço de repetição `while`, some os números de 1 a 10. Quando a soma ultrapassar `30`, imprima `Limite atingido!` e interrompa o laço. 
- 
+4. Utilizando o laço de repetição `while`, some os números de 1 a 10. Quando a soma ultrapassar `30`, imprima `Limite atingido!` e interrompa o laço.
+
 ## Listas
 1. Crie uma lista com as strings `'infinity'`, `'school'`, `'curso'`, `'dfs'`.
 
@@ -21,7 +21,7 @@
 
 5. Defina que o terceiro elemento da lista será `'course'` e imprima a lista.
 
-6. Com a lista `['Mike', '', 'Emma', 'Kelly', '', 'Brad']`, imprima a lista sem as strings vazias. 
+6. Com a lista `['Mike', '', 'Emma', 'Kelly', '', 'Brad']`, imprima a lista sem as strings vazias.
 
 ## Tuplas
 1. Crie uma tupla com os números de 1 a 5.
@@ -67,7 +67,7 @@
 
 ## Laço de repetição `for`
 1. Crie uma lista com os números de 1 a 5 e use um for para imprimir cada número.
-   
+
 2. Faça um laço de repetição `for` que verifique qual item da lista `[7, 5, 159, 30, 12, 15]` é maior do que 100. Imprima a mensagem `Encontrei um número maior que 100`. Em seguida, imprima o número e interrompa o laço.
 
 3. Com a mesma lista do item 1, Crie um laço de repetição que verifique se o item é maior do que 10. Quando o item for maior que 10, imprima `Encontrei um número maior que 10`. Em seguida, imprima o número e continue o laço.
@@ -86,10 +86,10 @@
 
 2. Com o laço de repetição `for`, realize a seguinte impressão no terminal:
 ```
-1 
-1 2 
-1 2 3 
-1 2 3 4 
+1
+1 2
+1 2 3
+1 2 3 4
 1 2 3 4 5
 ```
 3. Imprima a lista `['classe', 'objeto', 'dicionário', 'tupla', 'lista']`, porém colocando cada uma das strings com a primeira letra em maiúscula.
@@ -112,5 +112,3 @@ matriz = [
     [7, 8, 9]
 ]
 ```
-
-
