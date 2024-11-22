@@ -25,6 +25,7 @@
 
 11. Crie uma função `calcula_pontos` que receba o número de vitórias e o número de empates e, ao ser chamada, deve retornar a quantidade de pontos que o time marcou em um campeonato. _Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto._
 
+12. Crie uma função chamada `soma_e_subtracao` que receberá dois números e deverá retornar a soma e a subtração do primeiro pelo segundo número.
 
 # Desafios maiores (boa sorte!)
 
@@ -56,3 +57,13 @@ jogadores = [
   }
 ]
 ```
+
+4. Um triângulo é composto de três linhas: `linha_a`, `linha_b` e `linha_c`. Crie uma função chamada `verifica_triangulo` que deverá receber as três linhas como parâmetro e retornar se é possível formar um triângulo com os valores apresentados de cada linha. Para tanto, tenha em mente algumas considerações:
+
+- Para que seja possível formar um triângulo, é necessário que a medida de qualquer um dos lados seja menor que a soma das medidas dos outros dois e maior que o valor absoluto da diferença entre essas medidas.
+
+- Para obter o valor absoluto de um número em Python, pesquise pela função `abs()`.
+  
+- O retorno da sua função deverá ser um booleano.
+
+   >Exemplo: o retorno de `verifica_triangulo(10, 14, 8)` deverá ser `True`.
