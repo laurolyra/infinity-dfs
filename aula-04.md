@@ -4,7 +4,7 @@
 
 2. Crie uma função `saudacoes`, que recebe um nome de pessoa como parâmetro e, ao ser chamada, retorna a string `Olá, x`, sendo `x` o parâmetro q você passou pra função.
 
-3. Crie uma função que receba dois números como parâmetros e, ao ser chamada, retorne a soma desses dois números.
+3. Crie uma função `soma_dois` que receba dois números como parâmetros e, ao ser chamada, retorne a soma desses dois números.
 
 4. Crie uma função que, ao receber uma idade, verifica se a pessoa é maior ou menor de idade, retornando `É maior de idade` caso positivo e `É menor de idade` caso negativo.
 
@@ -22,6 +22,33 @@
 
 10. Crie uma função que recebe uma lista de números e, ao ser chamada, retorna uma lista de tamanho idêntico, mas com todos os números multiplicados por três.
     > Exemplo: dada a lista `[2, 3, 4, 5]`, a função deve retornar `[6, 9, 12, 15]`
+
+11. Considerando a lista de dicionários abaixo, escreva uma função que recebe uma lista nesse formato e retorna o nome dos jogadores que tem o valor `capitao` verdadeiro
+```
+jogadores = [
+  {
+    "nome": 'deyverson',
+    "numero": 9,
+    "posicao": 'atacante',
+    "capitao": False
+  },
+  {
+    "nome": 'hulk'
+    "numero": 7
+    "posicao": 'atacante',
+    "capitao": True
+  },
+  {
+    "nome": 'everson',
+    "numero": 1,
+    "posicao": 'goleiro',
+    "capitao": True
+  }
+]
+```
+
+12. Crie uma função `calcula_pontos` que receba o número de vitórias e o número de empates e, ao ser chamada, deve retornar a quantidade de pontos que o time marcou em um campeonato. _Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto._
+
 
 # Desafios maiores (boa sorte!)
 
