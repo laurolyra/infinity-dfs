@@ -23,7 +23,17 @@
 10. Crie uma função que recebe uma lista de números e, ao ser chamada, retorna uma lista de tamanho idêntico, mas com todos os números multiplicados por três.
     > Exemplo: dada a lista `[2, 3, 4, 5]`, a função deve retornar `[6, 9, 12, 15]`
 
-11. Considerando a lista de dicionários abaixo, escreva uma função que recebe uma lista nesse formato e retorna o nome dos jogadores que tem o valor `capitao` verdadeiro
+11. Crie uma função `calcula_pontos` que receba o número de vitórias e o número de empates e, ao ser chamada, deve retornar a quantidade de pontos que o time marcou em um campeonato. _Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto._
+
+
+# Desafios maiores (boa sorte!)
+
+1. Crie uma função que resolve uma equação de segundo grau - assim definida como `ax² + bx + c = 0`. A função deve receber três parâmetros `a`, `b` e `c` e calcular o delta. Caso o delta seja positivo, retorne a frase `essa equação aceita dois resultados` junto com seus resultados. Caso o delta seja 0, retorne a frase `essa equação aceita um resultado`. Por fim, caso o delta seja negativo, retorne a frase `não existem resultados para essa equação`.
+
+2. Crie uma função chamada `verifica_meia` que recebe um dicionário `ingresso` com as chaves `nome_completo`(string), `cpf`(número) e `estudante`(booleano) e um valor `preco_ingresso`. Quando essa função for chamada, ela deverá verificar o valor da chave `estudante` e o valor de `preco_ingresso`. Se esse valor for verdadeiro, a função deve retornar `Seu ingresso custa [z / 2] reais`. Se for falso, deve retornar `Seu ingresso custa [z] reais`, sendo `[z]` o valor de `preco_ingresso`
+    > Exemplo: se a função `verifica_meia(pagante, preco)` recebe um dicionário `{nome: 'Astolfo Borges', cpf: 00000000000, estudante: True}` e o valor `100`, seu retorno deverá ser `Seu ingresso custa 50 reais`
+
+3. Considerando a lista de dicionários abaixo, escreva uma função que recebe uma lista nesse formato e retorna o nome dos jogadores que tem o valor `capitao` verdadeiro
 ```
 jogadores = [
   {
@@ -46,13 +56,3 @@ jogadores = [
   }
 ]
 ```
-
-12. Crie uma função `calcula_pontos` que receba o número de vitórias e o número de empates e, ao ser chamada, deve retornar a quantidade de pontos que o time marcou em um campeonato. _Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto._
-
-
-# Desafios maiores (boa sorte!)
-
-1. Crie uma função que resolve uma equação de segundo grau - assim definida como `ax² + bx + c = 0`. A função deve receber três parâmetros `a`, `b` e `c` e calcular o delta. Caso o delta seja positivo, retorne a frase `essa equação aceita dois resultados` junto com seus resultados. Caso o delta seja 0, retorne a frase `essa equação aceita um resultado`. Por fim, caso o delta seja negativo, retorne a frase `não existem resultados para essa equação`.
-
-2. Crie uma função chamada `verifica_meia` que recebe um dicionário `ingresso` com as chaves `nome_completo`(string), `cpf`(número) e `estudante`(booleano) e um valor `preco_ingresso`. Quando essa função for chamada, ela deverá verificar o valor da chave `estudante` e o valor de `preco_ingresso`. Se esse valor for verdadeiro, a função deve retornar `Seu ingresso custa [z / 2] reais`. Se for falso, deve retornar `Seu ingresso custa [z] reais`, sendo `[z]` o valor de `preco_ingresso`
-    > Exemplo: se a função `verifica_meia(pagante, preco)` recebe um dicionário `{nome: 'Astolfo Borges', cpf: 00000000000, estudante: True}` e o valor `100`, seu retorno deverá ser `Seu ingresso custa 50 reais`
