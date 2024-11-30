@@ -90,4 +90,20 @@
 - Filtre os números cujo quadrado seja maior que 50 usando `filter`.
 - Encontre o produto dos números restantes usando `reduce`.
     > Exemplo: com a lista `[2, 5, 8, 10, 12]` o retorno deve ser 921600
-
+6. Dada a lista de dicionários a seguir, crie uma função lambda `arrecadacao_total` que calcula o somatório de `faturamento` em cada setor.
+    ```python
+    arrecadacao = [
+    {
+        "setor": "arquibancada alta",
+        "faturamento": 15780.23
+    },
+    {
+        "setor": "cadeira",
+        "faturamento": 15900.23
+    },
+    {
+        "setor": "visitante",
+        "faturamento": 12950
+    },
+    ]
+    ```
