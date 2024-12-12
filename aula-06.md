@@ -9,12 +9,12 @@ python3 -m venv projeto_funcoes
 
 3. ativar o ambiente virtual:
 source projeto_funcoes/bin/activate
+```python
 '''
 Desenvolver um programa de linha de comando que permite
 aos usuários gerenciar suas tarefas diárias, atribuindo-lhes
 prioridades e categorias.
 '''
-```python
 print('lista de tarefas')
 
 print('opções:\n1- adicionar tarefa;\n2- listar tarefa;\n3- marcar como concluída\n0- sair')
@@ -61,7 +61,7 @@ def menu_principal():
 menu_principal()
 ```
 
-### 1- criar nova funcionalidade para REMOVER uma tarefa pelo nome
-### 2- perguntar pro usuário QUANTAS tarefas ele quer adicionar e chamar a função adicionar_tarefa quantas vezes o usuário definir
-### 3- permitir que o usuário escolha se ele quer remover uma tarefa pelo nome ou por uma da(s) categoria(s)
-### BOA SORTE - ao invés de "categoria", permita o usuário a inserir CATEGORIAS
+#### 1- criar nova funcionalidade para REMOVER uma tarefa pelo nome
+#### 2- perguntar pro usuário QUANTAS tarefas ele quer adicionar e chamar a função adicionar_tarefa quantas vezes o usuário definir
+#### 3- permitir que o usuário escolha se ele quer remover uma tarefa pelo nome ou por uma da(s) categoria(s)
+#### BOA SORTE - ao invés de "categoria", permita o usuário a inserir CATEGORIAS
