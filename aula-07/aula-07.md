@@ -27,5 +27,6 @@ aula-07
 7. Utilizando a biblioteca `qrcode`, [disponível aqui](https://pypi.org/project/qrcode/), complete a função `gera_qr_code` de cada módulo. fique atento que a função está esperando um argumento para que seja gerada a chave, então você pode criar um novo `input` para gerar esse código OU utilizar a biblioteca `faker` do exercício anterior.
 
 ### Desafios Maiores (boa sorte!)
-1. Nossa pasta possui um arquivo chamado `banco_de_dados.json`, entenda-o como uma simulação do banco de dados. Com a ajuda da biblioteca `json`, manipule o arquivo mencionado e retorne o dicionário alterado, aplicando as operações descritas no nome da função - com um dado pessoal editado, com um endereço adicionado, etc.
+1. Nossa pasta possui um arquivo chamado `banco_de_dados.json`, entenda-o como uma simulação do banco de dados. Com a ajuda da biblioteca `json`, manipule o arquivo mencionado e retorne o dicionário alterado, aplicando as operações descritas no nome da função - com um dado pessoal editado, com um endereço adicionado, etc. Seu código deverá requisitar o id da pessoa antes de executar a tarefa
+    >Exemplo: se a função `deleta_dado_pessoal` for chamada e você passar o id `1`, a função deverá retornar todos os dados de `Maria de Sousa`, mas com os valores de `dados pessoais` vazios (as chaves deverão ser mantidas) 
 2. Quer fazer um gerador de qrcode pra pix DE VERDADE? sugiro dar uma explorada na biblioteca [pixQRcode](https://github.com/Mostela/pix-qrcode). Implemente-a no projeto e tenha seu primeiro projetinho python prático!
