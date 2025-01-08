@@ -1,8 +1,8 @@
 opcao = int(input("selecione uma opção: "))
 def menu_principal():
     if opcao == 1:
-        print("opcao 1")
-        #chame uma função de chave_pix
+        print('opção 1')
+        #chame a função do primeiro exercício de listas
     if opcao == 2:
         print("opcao 2")
         #chame uma função de chave_pix
