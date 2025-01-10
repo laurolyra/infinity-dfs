@@ -1,55 +1,23 @@
+'''
+Aqui é pra você treinar a importação de arquivos.
+Quando este arquivo for executado, para cada opção digitada, deve-se chamar
+a função que está no seu comentário.
+
+Você não precisa necessariamente resolver os exercícios lá nos arquivos pra importar e chamar as funções aqui.
+'''
 opcao = int(input("selecione uma opção: "))
 def menu_principal():
     if opcao == 1:
         print('opção 1')
-        #chame a função do primeiro exercício de listas
+        #chame a função retorna_0_a_5() do arquivo exercicios_de_listas.py
     if opcao == 2:
         print("opcao 2")
-        #chame uma função de chave_pix
+        #chame a função le_o_nome({'nome': 'João', 'idade': 20, 'curso': 'Engenharia'}) do arquivo exercicios_de_dicionarios.py
     if opcao == 3:
         print("opcao 3")
-        #chame uma função de chave_pix
+        #chame a função contar_unicos([1, 1, 3, 5, 5, 5, 6, 2, 18]) do arquivo exercicios_conjuntos_tuplas.py
     if opcao == 4:
         print("opcao 4")
-        #chame uma função de chave_pix
-    if opcao == 5:
-        print("opcao 5")
-        #chame uma função de dados_pessoais
-    if opcao == 6:
-        print("opcao 6")
-        #chame uma função de dados_pessoais
-    if opcao == 7:
-        print("opcao 7")
-        #chame uma função de dados_pessoais
-    if opcao == 8:
-        print("opcao 8")
-        #chame uma função de dados_pessoais
-    if opcao == 9:
-        print("opcao 9")
-        #chame uma função de endereco
-    if opcao == 10:
-        print("opcao 10")
-        #chame uma função de endereco
-    if opcao == 11:
-        print("opcao 11")
-        #chame uma função de endereco
-    if opcao == 12:
-        print("opcao 12")
-        #chame uma função de endereco
-    if opcao == 13:
-        print("opcao 13")
-        #chame uma função de telefone
-    if opcao == 14:
-        print("opcao 14")
-        #chame uma função de telefone
-    if opcao == 15:
-        print("opcao 15")
-        #chame uma função de telefone
-    if opcao == 16:
-        print("opcao 16")
-        #chame uma função de telefone
-    if opcao == 0:
-        print("opcao 0")
-        #saia da aplicação
+        #chame a função tuplas_para_dicionario([('nome', 'Ana'), ('idade', 25)]) do arquivo exercicios_tudo_em_um.py
 
 menu_principal()
