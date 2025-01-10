@@ -19,5 +19,7 @@ def menu_principal():
     if opcao == 4:
         print("opcao 4")
         #chame a função tuplas_para_dicionario([('nome', 'Ana'), ('idade', 25)]) do arquivo exercicios_tudo_em_um.py
-
+    if opcao == 5:
+        print("opcao 5")
+        #utilize a biblioteca faker para imprimir e-mails aleatórios sempre que essa opção for escolihda
 menu_principal()
