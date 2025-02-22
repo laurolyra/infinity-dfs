@@ -60,7 +60,6 @@ Representa um usuário da biblioteca.
 - `livros_emprestados` (lista de `Livro`): Lista de livros emprestados pelo usuário.
 
 #### Métodos:
-- `emprestar_livro(livro)`: Adiciona um livro à lista de livros emprestados.
 - `devolver_livro(livro)`: Remove um livro da lista de livros emprestados.
 - `__str__()`: Retorna uma representação legível do usuário.
 
