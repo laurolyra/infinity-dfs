@@ -58,6 +58,7 @@ Representa um usuário da biblioteca.
 - `nome` (string): Nome do usuário.
 - `id` (int): ID único do usuário.
 - `livros_emprestados` (lista de `Livro`): Lista de livros emprestados pelo usuário.
+- `recebe_livro_emprestado(livro)`: Adiciona um livro à lista de livros emprestados.
 
 #### Métodos:
 - `devolver_livro(livro)`: Remove um livro da lista de livros emprestados.
