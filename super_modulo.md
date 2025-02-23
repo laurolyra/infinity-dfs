@@ -4,7 +4,7 @@
    > Exemplo: dada a lista `[7, 5, 159, 30, 12, 15]`, deve-se retornar `encontrei um número maior do que 100: 159`
 
 2. Crie um programa que verifica se uma palavra é um anagrama de outra palavra
-   > Exemplo: `anagrama(amor, roma)` deve retornar `True`
+   > Exemplo: `anagrama("iracema", "america")` deve retornar `True`
 
 3. Crie uma função fizzbuzz, que recebe uma lista e imprime na tela `fizz` para cada número que for divisível por 3, `buzz` para cada número divisível por 5 e `fizzbuzz` para cada número divisível por 3 e por 5.
    > Exemplo:  `[2, 3, 4, 5, 6, 7, 8, 9, 12, 14, 15, 17, 22, 24, 30]` como argumento deverá retornar `2 fizz 4 buzz fizz 7 8 fizz fizz 14 fizzbuzz 17 22 fizz fizzbuzz`(separado linha a linha)
