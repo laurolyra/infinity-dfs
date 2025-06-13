@@ -87,4 +87,4 @@ jogadores = [
   #resultado esperado: {a: ["abelha", "amora"], c:["caju", "constância"], e: ["estudo"], p:["persistir"]}
   ```
 15.  Escreva um programa que, dada uma lista de números inteiros, encontre o comprimento da maior subsequência contínua de números consecutivos presentes na lista.
-      >Exemplo: `conta_subsequencia([1, 9, 3, 10, 4, 20, 2, 11, 12, 13, 14, 15, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29])` espera um retorno de `11`
+      >Exemplo: `conta_subsequencia([1, 9, 3, 10, 4, 20, 2, 11, 12, 13, 14, 15, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29])` espera um retorno de `8`
