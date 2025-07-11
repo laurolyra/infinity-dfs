@@ -53,7 +53,3 @@
 4. **Exercício 19**: Crie uma classe `Roupa` que herda de `Produto` e sobrescreve o método `calcularPreco()` para retornar o preço de uma roupa com 20% de desconto.
 
 5. **Exercício 20**: Crie uma lista de objetos do tipo `Produto` que contenha instâncias de `Livro`, `Eletrônico` e `Roupa`. Use um loop para chamar os métodos `calcularPreco()` e `descrever()` de cada objeto, demonstrando polimorfismo.
-
----
-
-Esses exercícios cobrem herança, sobrescrita de métodos e polimorfismo de forma gradual e prática. Eles podem ser adaptados conforme o nível dos seus alunos. Boa sorte com o bootcamp! 😊
