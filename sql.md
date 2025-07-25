@@ -3,7 +3,7 @@
 1. Acesse https://sqlplayground.app/
 2. Clique em "create sandbox"; 
 3. Selecione o template "world"; 
-4. CXique em "create a sandbox"
+4. Clique em "create a sandbox"
 
 ### Faça as seguintes consultas
 1. Liste todas as cidades e o nome do país ao qual pertencem.
